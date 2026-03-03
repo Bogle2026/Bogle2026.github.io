@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Bogleheads 投资社区"
-subtitle: "长期投资，指数基金，简单生活"
-description: "分享Bogleheads投资理念，追求长期稳健收益"
+title: "价值投资圈"
+subtitle: "价值投资，长期稳健，财富增长"
+description: "分享价值投资理念，追求长期稳健收益"
 keywords:
-  - Bogleheads
-  - 指数基金
+  - 价值投资
   - 投资理财
   - 长期投资
+  - 财富管理
 author: 孙悟空
 language: zh-CN
 timezone: Asia/Shanghai

@@ -1,0 +1,26 @@
+{% extends '_layout.njk' %}
+{% import '_macro/sidebar.njk' as sidebar_template with context %}
+
+{% block title %}{{ title }}{% if theme.index_with_subtitle and subtitle %} - {{ subtitle }}{% endif %}{% endblock %}
+
+{% block class %}index posts-expand{% endblock %}
+
+{% block content %}
+
+  <div class="post-block" style="padding: 24px 28px; margin-bottom: 24px;">
+    <h2 style="margin-top: 0; margin-bottom: 12px;">给普通投资者的长期主义投资笔记</h2>
+    <p style="margin: 0 0 10px 0;">不追热点，不猜涨跌，专注研究<strong>值得长期持有的公司</strong>、企业护城河、估值框架与投资心态。</p>
+    <p style="margin: 0;"><a href="/start/">👉 新手建议先看：从这里开始</a></p>
+  </div>
+
+  {%- for post in page.posts.toArray() %}
+    {{ partial('_macro/post.njk', {post: post, is_index: true}) }}
+  {%- endfor %}
+
+  {%- include '_partials/pagination.njk' -%}
+
+{% endblock %}
+
+{% block sidebar %}
+  {{ sidebar_template.render(false) }}
+{% endblock %}

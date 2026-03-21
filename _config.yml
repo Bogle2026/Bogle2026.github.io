@@ -4,13 +4,17 @@
 
 # Site
 title: "价值投资圈"
-subtitle: "价值投资，长期稳健，财富增长"
-description: "分享价值投资理念，追求长期稳健收益"
+subtitle: "给普通投资者的长期主义投资笔记"
+description: "专注价值投资、企业护城河、商业模式、估值框架与长期持有思维，帮助普通投资者建立更清晰的投资判断体系。"
 keywords:
   - 价值投资
-  - 投资理财
   - 长期投资
-  - 财富管理
+  - 企业护城河
+  - 商业模式分析
+  - 估值框架
+  - 巴菲特
+  - 芒格
+  - 投资心理
 author: 孙悟空
 language: zh-CN
 timezone: Asia/Shanghai

@@ -1,0 +1,17 @@
+menu:
+  home: / || fa fa-home
+  新手开始: /start/ || fa fa-compass
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+
+menu_settings:
+  icons: true
+  badges: false
+
+index_with_subtitle: true
+
+social:
+  GitHub: https://github.com/Bogle2026 || fab fa-github
+
+follow_me:
+  RSS: /atom.xml || fa fa-rss
